@@ -13,6 +13,9 @@ body header .navbar div div {
 body header .navbar ul {
   font-size: 1rem;
 }
+body main section div {
+  border-bottom: solid 0.1rem #faa307;
+}
 body main section div .banner {
   width: 100%;
   height: auto;
@@ -35,7 +38,8 @@ body main section .informacion {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px;
-  grid-template-areas: "titulo foto" "des foto";
+  grid-template-areas: "titulo foto" "des foto" "mapa texto";
+  border-bottom: solid 0.1rem gray;
 }
 body main section .informacion .titulo {
   color: black;
@@ -61,4 +65,154 @@ body main section .informacion .img-info {
   box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
   -webkit-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
   -moz-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+}
+body main section .informacion .img-info2 {
+  margin-top: 1rem;
+  grid-area: foto;
+  width: 24rem;
+  border-radius: 20rem;
+  margin-left: -4rem;
+  box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  -webkit-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  -moz-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+}
+body main section .ubi {
+  display: flex;
+  flex-direction: row;
+}
+body main section .ubi .mapa {
+  padding: 1rem;
+}
+body main section .ubi .tituloUbi {
+  color: black;
+  font-size: 1.5rem;
+  width: 1rem;
+}
+body main section .informacion2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  grid-template-areas: "titulo titulo titulo" "card1 card2 card3" "card4 card5 card5";
+  row-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding: 2rem;
+}
+body main section .informacion2 .cincoBeneficios {
+  font-size: 2.5rem;
+  color: black;
+  grid-area: titulo;
+  text-align: center;
+}
+body main section .informacion2 .card {
+  background-color: #eae0d5;
+  grid-area: card1;
+  text-align: -webkit-center;
+  height: 21rem;
+  border-radius: 3rem;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+}
+body main section .informacion2 .card .tituloSeguridad {
+  color: black;
+}
+body main section .informacion2 .card .desSeguridad {
+  color: black;
+  font-size: 1.7rem;
+}
+body main section .informacion2 .card .seguridad {
+  width: 5rem;
+}
+body main section .informacion2 .card2 {
+  background-color: #FCB82E;
+  grid-area: card2;
+  text-align: -webkit-center;
+  height: 21rem;
+  border-radius: 3rem;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+}
+body main section .informacion2 .card2 .tituloDisuasion {
+  color: black;
+}
+body main section .informacion2 .card2 .desDisuasion {
+  color: black;
+  font-size: 1.7rem;
+}
+body main section .informacion2 .card3 {
+  background-color: #FCB82E;
+  grid-area: card3;
+  text-align: -webkit-center;
+  height: 21rem;
+  border-radius: 3rem;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+}
+body main section .informacion2 .card3 .tituloAlerta {
+  color: black;
+}
+body main section .informacion2 .card3 .desAlerta {
+  color: black;
+  font-size: 1.5rem;
+}
+body main section .informacion2 .card3 .alerta {
+  width: 5rem;
+  margin-top: -1rem;
+}
+body main section .informacion2 .card4 {
+  background-color: #FCB82E;
+  grid-area: card4;
+  text-align: -webkit-center;
+  height: 21rem;
+  border-radius: 3rem;
+  width: 32rem;
+  margin-left: 50%;
+  padding: 1rem;
+  box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+}
+body main section .informacion2 .card4 .tituloCosto {
+  color: black;
+}
+body main section .informacion2 .card4 .desCosto {
+  color: black;
+  font-size: 1.7rem;
+}
+body main section .informacion2 .card4 .costo {
+  width: 5rem;
+}
+body main section .informacion2 .card5 {
+  background-color: #FCB82E;
+  grid-area: card5;
+  text-align: -webkit-center;
+  height: 21rem;
+  border-radius: 3rem;
+  position: relative;
+  width: 30rem;
+  margin-left: 25%;
+  padding: 1rem;
+  box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+}
+body main section .informacion2 .card5 .tituloFlex {
+  color: black;
+}
+body main section .informacion2 .card5 .desFlex {
+  color: black;
+  font-size: 1.5rem;
+}
+body main section .informacion2 .card5 .flex {
+  margin-top: -0.5rem;
+  width: 5rem;
 }/*# sourceMappingURL=estilos.css.map */
