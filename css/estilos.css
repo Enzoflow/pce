@@ -1,0 +1,64 @@
+body {
+  background-color: white;
+}
+body header .navbar {
+  background-color: #faa307 !important;
+}
+body header .navbar div .nombre-empresa {
+  font-size: 3rem;
+}
+body header .navbar div div {
+  justify-content: center;
+}
+body header .navbar ul {
+  font-size: 1rem;
+}
+body main section div .banner {
+  width: 100%;
+  height: auto;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+}
+body main section div .logo {
+  margin-top: -30rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 20rem;
+  border-radius: 5rem;
+  vertical-align: middle;
+  margin-left: 9rem;
+  padding-bottom: 1rem;
+  position: absolute;
+}
+body main section .informacion {
+  border-top: solid 0.2rem white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
+  grid-template-areas: "titulo foto" "des foto";
+}
+body main section .informacion .titulo {
+  color: black;
+  font-size: 4rem;
+  grid-area: titulo;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+body main section .informacion .descripcion {
+  color: black;
+  font-size: 1.5rem;
+  width: 30rem;
+  text-align: justify;
+  margin-left: 5rem;
+  grid-area: des;
+}
+body main section .informacion .img-info {
+  margin-top: 1rem;
+  width: 27rem;
+  grid-area: foto;
+  border-radius: 32rem;
+  margin-left: 17rem;
+  box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  -webkit-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  -moz-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+}/*# sourceMappingURL=estilos.css.map */
