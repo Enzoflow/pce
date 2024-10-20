@@ -2,27 +2,44 @@ body main section .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px;
-  grid-template-areas: "mapa titulo" "mapa des" "mapa info";
+  grid-template-areas: "titulo titulo" "mapa subTitulo" "mapa des" "desMapa info";
   padding: 2rem;
+  justify-items: center;
 }
 body main section .contact .tituloContacto {
   color: black;
-  font-size: 2rem;
+  font-size: 5rem;
   text-align: center;
   grid-area: titulo;
-  padding-right: 3rem;
+  margin-top: -5rem;
+}
+body main section .contact .mapa {
+  grid-area: mapa;
+}
+body main section .contact .subTitulo {
+  font-size: 2rem;
+  grid-area: subTitulo;
+  margin-top: -8rem;
 }
 body main section .contact .in {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   grid-area: des;
-  margin-top: -7rem;
+  margin-top: -15rem;
   text-align: justify;
   padding-right: 3rem;
 }
+body main section .contact .desMapa {
+  grid-area: desMapa;
+  font-size: 1.1rem;
+  padding: 1rem;
+  width: 35rem;
+  text-align: center;
+}
 body main section .contact .contenedor {
   grid-area: info;
-  background-color: white;
+  background: rgb(252, 184, 46);
+  background: radial-gradient(circle, rgb(252, 184, 46) 87%, rgb(255, 255, 255) 99%, rgb(0, 0, 0) 100%);
   width: 35rem;
   height: -moz-fit-content;
   height: fit-content;
@@ -35,16 +52,18 @@ body main section .contact .contenedor {
   border-radius: 45px 45px 45px 45px;
   -webkit-border-radius: 45px 45px 45px 45px;
   -moz-border-radius: 45px 45px 45px 45px;
-  border: 3px solid black;
+  margin-top: -15rem;
 }
 body main section .contact .contenedor .datos {
   color: black;
   align-content: space-around;
   font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-left: -2rem;
 }
 body main section .contact .contenedor .circulo {
-  width: 66px;
-  height: 69px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
   background-color: rgb(44, 44, 44);
   display: flex;
@@ -55,6 +74,10 @@ body main section .contact .contenedor .circulo {
 body main section .contact .contenedor .circulo .ig {
   width: 4rem;
   height: 4rem;
+}
+body main section .contact .contenedor .circulo .ig:hover {
+  background-color: #d62976;
+  transition-duration: 0.3s;
 }
 body main section .contact .contenedor .circulo .wsp {
   width: 5rem;
