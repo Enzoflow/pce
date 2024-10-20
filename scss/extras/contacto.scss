@@ -1,0 +1,66 @@
+body{
+    main{
+        section{
+            .contact{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 200px;
+                grid-template-areas: 
+                "mapa titulo"
+                "mapa des"
+                "mapa info";
+                padding: 2rem;
+                .tituloContacto{
+                    color: black;
+                    font-size: 2rem;
+                    text-align: center;
+                    grid-area: titulo;
+                    padding-right: 3rem;
+                }
+                .in{
+                    color: black;
+                    font-size: 1.5rem;
+                    grid-area: des;
+                    margin-top: -7rem;
+                    text-align: justify;
+                    padding-right: 3rem;
+                }
+                .contenedor{
+                    grid-area: info;
+                    background-color: white;
+                    width: 20rem;
+                    height: fit-content;
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 1rem;
+                    padding: 25px 25px;
+                    gap: 1rem;
+                    justify-content: space-around;
+                    border-radius: 45px 45px 45px 45px;
+                    -webkit-border-radius: 45px 45px 45px 45px;
+                    -moz-border-radius: 45px 45px 45px 45px;
+                    border: 3px solid black;
+                    .circulo{
+                        width: 66px;
+                        height: 69px;
+                        border-radius: 50%;
+                        background-color: rgb(44, 44, 44);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+                        .ig{
+                            width: 4rem;
+                            height: 4rem;
+                        }
+                        .wsp{
+                            width: 5rem;
+                            height: 5rem;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
