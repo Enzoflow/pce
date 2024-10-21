@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   background-color: white;
 }
@@ -46,6 +48,7 @@ body main section .informacion .titulo {
   grid-area: titulo;
   padding-left: 3rem;
   margin-top: 1rem;
+  font-family: "Playfair Display", serif;
 }
 body main section .informacion .descripcion {
   color: black;
@@ -54,6 +57,7 @@ body main section .informacion .descripcion {
   text-align: justify;
   padding-left: 3rem;
   grid-area: des;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion .img-info {
   margin-top: 1rem;
@@ -70,6 +74,7 @@ body main section .informacion .titulo2 {
   color: black;
   font-size: 3rem;
   padding-left: 3rem;
+  font-family: "Playfair Display", serif;
 }
 body main section .informacion .descripcion2 {
   grid-area: des2;
@@ -78,6 +83,7 @@ body main section .informacion .descripcion2 {
   text-align: justify;
   width: 55rem;
   padding-left: 3rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .merecesSeguridad {
   display: grid;
@@ -92,12 +98,14 @@ body main section .merecesSeguridad .tituloMereces {
   grid-area: titulo;
   font-size: 5rem;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 body main section .merecesSeguridad .descripcionSeguridad {
   grid-area: des;
   font-size: 1.5rem;
   text-align: justify;
   padding: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .merecesSeguridad .pic {
   grid-area: pic;
@@ -116,18 +124,6 @@ body main section .merecesSeguridad .pic2 {
   -moz-border-radius: 85px 0px 0px 81px;
   border: 3px solid #000000;
 }
-body main section .ubi {
-  display: flex;
-  flex-direction: row;
-}
-body main section .ubi .mapa {
-  padding: 1rem;
-}
-body main section .ubi .tituloUbi {
-  color: black;
-  font-size: 1.5rem;
-  width: 1rem;
-}
 body main section .informacion2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -144,13 +140,14 @@ body main section .informacion2 .cincoBeneficios {
   color: black;
   grid-area: titulo;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 body main section .informacion2 .card {
   background: rgb(252, 184, 46);
   background: radial-gradient(circle, rgb(252, 184, 46) 87%, rgb(255, 255, 255) 99%, rgb(0, 0, 0) 100%);
   grid-area: card1;
   text-align: -webkit-center;
-  height: 21rem;
+  height: 23rem;
   border-radius: 3rem;
   align-items: center;
   padding: 1rem;
@@ -161,10 +158,12 @@ body main section .informacion2 .card {
 }
 body main section .informacion2 .card .tituloSeguridad {
   color: black;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card .desSeguridad {
   color: black;
   font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card .seguridad {
   width: 5rem;
@@ -174,7 +173,7 @@ body main section .informacion2 .card2 {
   background: radial-gradient(circle, rgb(252, 184, 46) 87%, rgb(255, 255, 255) 99%, rgb(0, 0, 0) 100%);
   grid-area: card2;
   text-align: -webkit-center;
-  height: 21rem;
+  height: 23rem;
   border-radius: 3rem;
   align-items: center;
   padding: 1rem;
@@ -185,17 +184,19 @@ body main section .informacion2 .card2 {
 }
 body main section .informacion2 .card2 .tituloDisuasion {
   color: black;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card2 .desDisuasion {
   color: black;
   font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card3 {
   background: rgb(252, 184, 46);
   background: radial-gradient(circle, rgb(252, 184, 46) 87%, rgb(255, 255, 255) 99%, rgb(0, 0, 0) 100%);
   grid-area: card3;
   text-align: -webkit-center;
-  height: 21rem;
+  height: 23rem;
   border-radius: 3rem;
   align-items: center;
   padding: 1rem;
@@ -206,21 +207,23 @@ body main section .informacion2 .card3 {
 }
 body main section .informacion2 .card3 .tituloAlerta {
   color: black;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card3 .desAlerta {
   color: black;
   font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card3 .alerta {
-  width: 5rem;
-  margin-top: -1rem;
+  width: 6rem;
+  margin-top: -0.5rem;
 }
 body main section .informacion2 .card4 {
   background: rgb(252, 184, 46);
   background: radial-gradient(circle, rgb(252, 184, 46) 87%, rgb(255, 255, 255) 99%, rgb(0, 0, 0) 100%);
   grid-area: card4;
   text-align: -webkit-center;
-  height: 21rem;
+  height: 23rem;
   border-radius: 3rem;
   width: 32rem;
   margin-left: 50%;
@@ -232,10 +235,12 @@ body main section .informacion2 .card4 {
 }
 body main section .informacion2 .card4 .tituloCosto {
   color: black;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card4 .desCosto {
   color: black;
   font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card4 .costo {
   width: 5rem;
@@ -245,7 +250,7 @@ body main section .informacion2 .card5 {
   background: radial-gradient(circle, rgb(252, 184, 46) 87%, rgb(255, 255, 255) 99%, rgb(0, 0, 0) 100%);
   grid-area: card5;
   text-align: -webkit-center;
-  height: 21rem;
+  height: 23rem;
   border-radius: 3rem;
   position: relative;
   width: 30rem;
@@ -258,10 +263,12 @@ body main section .informacion2 .card5 {
 }
 body main section .informacion2 .card5 .tituloFlex {
   color: black;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card5 .desFlex {
   color: black;
   font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card5 .flex {
   margin-top: -0.5rem;
@@ -275,6 +282,7 @@ body main section .servicios .tituloServicio {
   color: black;
   font-size: 3rem;
   margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
 }
 body main section .servicios .icons {
   background-color: rgba(255, 255, 255, 0.5);
@@ -338,6 +346,7 @@ body main section .contact .tituloContacto {
   text-align: center;
   grid-area: titulo;
   margin-top: -5rem;
+  font-family: "Playfair Display", serif;
 }
 body main section .contact .mapa {
   grid-area: mapa;

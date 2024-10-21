@@ -12,6 +12,7 @@ body main section .contact .tituloContacto {
   text-align: center;
   grid-area: titulo;
   margin-top: -5rem;
+  font-family: "Playfair Display", serif;
 }
 body main section .contact .mapa {
   grid-area: mapa;
