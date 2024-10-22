@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+
+}
 body{
     background-color: white;
     header{
@@ -13,7 +22,14 @@ body{
                 }
                 div{
                     justify-content: center;
-                    
+                    ul{
+                        li{
+                            a{
+                                font-size: 3rem !important;
+                                font-family: "Poppins", sans-serif;
+                            }
+                        }
+                    }
                 }
                 
             }
@@ -33,12 +49,12 @@ body{
                     -moz-filter: blur(2px);
                 }
                 .logo{
-                    margin-top: -30rem;
+                    margin-top: -46rem;
                     background-color: rgba(255,255,255,0.5);
-                    height: 20rem;
+                    height: 38rem;
                     border-radius: 5rem;
                     vertical-align: middle;
-                    margin-left: 9rem;
+                    margin-left: 14rem;
                     padding-bottom: 1rem;
                     position:absolute;
                 }
@@ -67,19 +83,18 @@ body{
                 }
                 .descripcion{
                     color: black;
-                    font-size: 1.5rem;
-                    width: 55rem;
+                    font-size: 2.5rem;
                     text-align: justify;
                     padding-left: 3rem;
                     grid-area: des;
                     font-family: "Poppins", sans-serif;
                 }
                 .img-info{
-                    margin-top: 1rem;
-                    width: 30rem;
+                    margin-top: -7rem;
+                    width: 50rem;
                     grid-area: foto;
                     border-radius: 32rem;
-                    margin-left: 5rem;
+                    margin-left: 12rem;
                     box-shadow: 1px 0px 36px 2px rgba(250,163,7,0.67);
                     -webkit-box-shadow: 1px 0px 36px 2px rgba(250,163,7,0.67);
                     -moz-box-shadow: 1px 0px 36px 2px rgba(250,163,7,0.67);
@@ -94,9 +109,9 @@ body{
                 .descripcion2{
                     grid-area: des2;
                     color: black;
-                    font-size: 1.5rem;
+                    font-size: 2.5rem;
                     text-align: justify;
-                    width: 55rem;
+                    width: 85rem;
                     padding-left: 3rem;
                     font-family: "Poppins", sans-serif;
                 }
@@ -114,15 +129,15 @@ body{
                 border-bottom: solid 0.1rem gray;
                 .tituloMereces{
                     grid-area: titulo;
-                    font-size: 5rem;
+                    font-size: 8rem;
                     text-align: center;
                     font-family: "Playfair Display", serif;
                 }
                 .descripcionSeguridad{
                     grid-area: des;
-                    font-size: 1.5rem;
+                    font-size: 2.5rem;
                     text-align: justify;
-                    padding: 1.5rem;
+                    padding: 3.5rem;
                     font-family: "Poppins", sans-serif;
                 }
                 .pic{
@@ -157,7 +172,7 @@ body{
                 padding: 2rem;
                 border-bottom: solid 0.1rem gray;
                 .cincoBeneficios{
-                    font-size: 2.5rem;
+                    font-size: 5.5rem;
                     color: black;
                     grid-area: titulo;
                     text-align: center;
@@ -168,7 +183,7 @@ body{
                     background: radial-gradient(circle, rgba(252,184,46,1) 87%, rgba(255,255,255,1) 99%, rgba(0,0,0,1) 100%);
                     grid-area: card1;
                     text-align: -webkit-center;
-                    height: 23rem;
+                    height: 24rem;
                     border-radius: 3rem;
                     align-items: center;
                     padding: 1rem;
@@ -179,10 +194,11 @@ body{
                     .tituloSeguridad{
                         color: black;
                         font-family: "Poppins", sans-serif;
+                        font-size: 2.5rem;
                     }
                     .desSeguridad{
                         color: black;
-                        font-size: 1.7rem;
+                        font-size: 2rem;
                         font-family: "Poppins", sans-serif;
                     }
                     .seguridad{
@@ -194,7 +210,7 @@ body{
                     background: radial-gradient(circle, rgba(252,184,46,1) 87%, rgba(255,255,255,1) 99%, rgba(0,0,0,1) 100%);
                     grid-area: card2;
                     text-align: -webkit-center;
-                    height: 23rem;
+                    height: 24rem;
                     border-radius: 3rem;
                     align-items: center;
                     padding: 1rem;
@@ -205,10 +221,11 @@ body{
                     .tituloDisuasion{
                         color: black;
                         font-family: "Poppins", sans-serif;
+                        font-size: 2.5rem;
                     }
                     .desDisuasion{
                         color: black;
-                        font-size: 1.7rem;
+                        font-size: 2rem;
                         font-family: "Poppins", sans-serif;
                     }
                 }
@@ -217,7 +234,7 @@ body{
                     background: radial-gradient(circle, rgba(252,184,46,1) 87%, rgba(255,255,255,1) 99%, rgba(0,0,0,1) 100%);
                     grid-area: card3;
                     text-align: -webkit-center;
-                    height: 23rem;
+                    height: 24rem;
                     border-radius: 3rem;
                     align-items: center;
                     padding: 1rem;
@@ -228,10 +245,11 @@ body{
                     .tituloAlerta{
                         color: black;
                         font-family: "Poppins", sans-serif;
+                        font-size: 2rem;
                     }
                     .desAlerta{
                         color: black;
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                         font-family: "Poppins", sans-serif;
                     }
                     .alerta{
@@ -244,9 +262,9 @@ body{
                     background: radial-gradient(circle, rgba(252,184,46,1) 87%, rgba(255,255,255,1) 99%, rgba(0,0,0,1) 100%);
                     grid-area: card4;
                     text-align: -webkit-center;
-                    height: 23rem;
+                    height: 24rem;
                     border-radius: 3rem;
-                    width: 32rem;
+                    width: 50rem;
                     margin-left: 50%;
                     padding: 1rem;
                     border: solid 0.2rem black;
@@ -256,14 +274,15 @@ body{
                     .tituloCosto{
                         color: black;
                         font-family: "Poppins", sans-serif;
+                        font-size: 2.5rem;
                     }
                     .desCosto{
                         color: black;
-                        font-size: 1.7rem;
+                        font-size: 2rem;
                         font-family: "Poppins", sans-serif;
                     }
                     .costo{
-                        width: 5rem;
+                        width: 7rem;
                     }
                 }
                 .card5{
@@ -271,10 +290,10 @@ body{
                     background: radial-gradient(circle, rgba(252,184,46,1) 87%, rgba(255,255,255,1) 99%, rgba(0,0,0,1) 100%);
                     grid-area: card5;
                     text-align: -webkit-center;
-                    height: 23rem;
+                    height: 24rem;
                     border-radius: 3rem;
                     position: relative;
-                    width: 30rem;
+                    width: 50rem;
                     margin-left: 25%;
                     padding: 1rem;
                     border: solid 0.2rem black;
@@ -284,24 +303,26 @@ body{
                     .tituloFlex{
                         color: black;
                         font-family: "Poppins", sans-serif;
+                        font-size: 2.5rem;
                     }
                     .desFlex{
                         color: black;
-                        font-size: 1.5rem;
+                        font-size: 1.8rem;
                         font-family: "Poppins", sans-serif;
                     }
                     .flex{
                         margin-top: -0.5rem;
-                        width: 5rem;
+                        width: 7rem;
                     }
                 }
             }
             .servicios{
                 text-align: center;
                 margin-top: 1rem;
+                margin-bottom: -11rem;
                 .tituloServicio{
                     color: black;
-                    font-size: 3rem;
+                    font-size: 5rem;
                     margin-bottom: 1rem;
                     font-family: "Playfair Display", serif;
                 }
@@ -313,13 +334,13 @@ body{
                     justify-content: center;
                     gap: 12rem;
                     .pago{
-                        width: 8rem;
+                        width: 12rem;
                     }
                     .instalacion{
-                        width: 8rem;
+                        width: 12rem;
                     }
                     .mantenimiento{
-                        width: 8rem;
+                        width: 12rem;
                     }
                 }
                 .name-icons{
@@ -329,7 +350,7 @@ body{
                     gap: 10rem;
                     .names{
                         color: black;
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                     }
                 }
             }
@@ -347,7 +368,7 @@ body{
         justify-content: space-around;
         column-gap: 1rem;
         .textoF{
-            font-size: 1.1rem;
+            font-size: 2rem;
             color: black;
             font-family: "Inconsolata", monospace;
             text-align: center;
@@ -356,3 +377,4 @@ body{
     }
 }
 @import "extras/contacto";
+@import "extras/galeria.scss";

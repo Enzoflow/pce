@@ -18,13 +18,14 @@ body main section .contact .mapa {
   grid-area: mapa;
 }
 body main section .contact .subTitulo {
-  font-size: 2rem;
+  font-size: 3.5rem;
   grid-area: subTitulo;
   margin-top: -8rem;
+  text-align: center;
 }
 body main section .contact .in {
   color: black;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   grid-area: des;
   margin-top: -15rem;
   text-align: justify;
@@ -32,16 +33,16 @@ body main section .contact .in {
 }
 body main section .contact .desMapa {
   grid-area: desMapa;
-  font-size: 1.1rem;
+  font-size: 2rem;
   padding: 1rem;
-  width: 35rem;
+  width: 51rem;
   text-align: center;
 }
 body main section .contact .contenedor {
   grid-area: info;
   background: rgb(252, 184, 46);
   background: radial-gradient(circle, rgb(252, 184, 46) 87%, rgb(255, 255, 255) 99%, rgb(0, 0, 0) 100%);
-  width: 35rem;
+  width: 55rem;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
@@ -58,7 +59,7 @@ body main section .contact .contenedor {
 body main section .contact .contenedor .datos {
   color: black;
   align-content: space-around;
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-top: 1rem;
   margin-left: -2rem;
 }
@@ -73,14 +74,14 @@ body main section .contact .contenedor .circulo {
   overflow: hidden;
 }
 body main section .contact .contenedor .circulo .ig {
-  width: 4rem;
-  height: 4rem;
+  width: 7rem;
+  height: 7rem;
 }
 body main section .contact .contenedor .circulo .ig:hover {
   background-color: #d62976;
   transition-duration: 0.3s;
 }
 body main section .contact .contenedor .circulo .wsp {
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
 }/*# sourceMappingURL=contacto.css.map */
