@@ -48,6 +48,8 @@ body{
                     -webkit-filter: blur(2px);
                     -moz-filter: blur(2px);
                 }
+            }
+            .mediaQlogo{
                 .logo{
                     margin-top: -46rem;
                     background-color: rgba(255,255,255,0.5);
@@ -58,8 +60,7 @@ body{
                     padding-bottom: 1rem;
                     position:absolute;
                 }
-                
-            }
+            } 
             .informacion{
                 border-top: solid 0.2rem white;
                 display: grid;
@@ -378,3 +379,4 @@ body{
 }
 @import "extras/contacto";
 @import "extras/galeria.scss";
+@import "extras/mediaQ";

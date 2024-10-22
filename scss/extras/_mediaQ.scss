@@ -1,0 +1,107 @@
+@media only screen and (max-width:699px){
+    body{
+        main{
+            section{
+                div{
+                    .banner{
+                        height: 22rem;
+                    }
+                }
+                .mediaQlogo{
+                    .logo{
+                        width: 20rem;
+                        height: 20rem;
+                        margin-left: 0rem;
+                        margin-top: -12rem;
+                        vertical-align: top;
+                    }
+                }
+                .informacion{
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 100px;
+                    grid-template-areas: 
+                    "titulo"
+                    "foto"
+                    "des"
+                    "titulo2"
+                    "des2";
+                    margin: 0px auto;
+                    .titulo{
+                        padding-left: 0rem;
+                        width: auto;
+                        text-align: center;
+                        margin-top: -2rem;
+                    }
+                    .descripcion{
+                        font-size: 2rem;
+                        padding-left: 0rem;
+                    }
+                    .img-info{
+                        width: 28rem;
+                        margin-left: 1rem;
+                    }
+                    .titulo2{
+                        font-size: 3rem;
+                        width: auto;
+                        text-align: center;
+                        padding-left: 0rem;
+                    }
+                    .descripcion2{
+                        font-size: 2rem;
+                        width: auto;
+                        padding-left: 0rem;
+                    }
+                }
+                .merecesSeguridad{
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 160px;
+                    grid-template-areas: 
+                    "titulo"
+                    "des"
+                    "pic"
+                    "pic2";
+                    .tituloMereces{
+                        font-size: 5rem;
+                    }
+                    .descripcionSeguridad{
+                        font-size: 2rem;
+                    }
+                    .pic{
+
+                    }
+                }
+                .informacion2{
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 100px;
+                    grid-template-areas: 
+                    "titulo"
+                    "card1"
+                    "card2" 
+                    "card3"
+                    "card4"
+                    "card5";
+                    .card4{
+                        width: 3rem;
+                    }
+                    .card5{
+                        width: 4rem;
+                    }
+                }
+                .servicios{
+                    .tituloServicio{
+                        font-size: 4rem;
+                    }
+                    .icons{
+                        flex-direction: column;
+                    }
+                    .name-icons{
+                        flex-direction: column;
+                        .names{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
