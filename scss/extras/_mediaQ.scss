@@ -80,26 +80,63 @@
                     "card3"
                     "card4"
                     "card5";
+                    .card{
+                        margin-top: 10rem;
+                        height: auto;
+                    }
+                    .cincoBeneficios{
+                        margin-bottom: 1rem;
+                    }
+                    .card2{
+                        height: auto;
+                    }
+                    .card3{
+                        height: auto;
+                    }
                     .card4{
-                        width: 3rem;
+                        height: auto;
+                        width: auto;
+                        margin-left: 0rem;
                     }
                     .card5{
-                        width: 4rem;
+                        height: auto;
+                        width: auto;
+                        margin-left: 0rem;
                     }
                 }
                 .servicios{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 0px auto;
                     .tituloServicio{
                         font-size: 4rem;
                     }
                     .icons{
                         flex-direction: column;
-                    }
-                    .name-icons{
-                        flex-direction: column;
-                        .names{
-                            font-size: 1rem;
+                        gap: 8rem;
+                        .instalacion{
+                            margin-left: 0rem;
                         }
                     }
+                    .name-icons{
+                        gap: 11rem;
+                        flex-direction: column;
+                        .names{
+                            margin-top: -35rem;
+                        }
+                    }
+                }
+            }
+            .galery{
+                .tituloGaleria{
+                    margin-bottom: 2rem;
+                }
+                .tituloGaleriaVideos{
+                    margin-bottom: 3rem;
+                }
+                .columnaVideos{
+                    margin-bottom: -3rem;
                 }
             }
         }

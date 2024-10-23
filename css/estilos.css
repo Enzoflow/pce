@@ -555,22 +555,59 @@ body main .galery .columnaVideos video {
     grid-template-rows: 100px;
     grid-template-areas: "titulo" "card1" "card2" "card3" "card4" "card5";
   }
+  body main section .informacion2 .card {
+    margin-top: 10rem;
+    height: auto;
+  }
+  body main section .informacion2 .cincoBeneficios {
+    margin-bottom: 1rem;
+  }
+  body main section .informacion2 .card2 {
+    height: auto;
+  }
+  body main section .informacion2 .card3 {
+    height: auto;
+  }
   body main section .informacion2 .card4 {
-    width: 3rem;
+    height: auto;
+    width: auto;
+    margin-left: 0rem;
   }
   body main section .informacion2 .card5 {
-    width: 4rem;
+    height: auto;
+    width: auto;
+    margin-left: 0rem;
+  }
+  body main section .servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
   }
   body main section .servicios .tituloServicio {
     font-size: 4rem;
   }
   body main section .servicios .icons {
     flex-direction: column;
+    gap: 8rem;
+  }
+  body main section .servicios .icons .instalacion {
+    margin-left: 0rem;
   }
   body main section .servicios .name-icons {
+    gap: 11rem;
     flex-direction: column;
   }
   body main section .servicios .name-icons .names {
-    font-size: 1rem;
+    margin-top: -35rem;
+  }
+  body main .galery .tituloGaleria {
+    margin-bottom: 2rem;
+  }
+  body main .galery .tituloGaleriaVideos {
+    margin-bottom: 3rem;
+  }
+  body main .galery .columnaVideos {
+    margin-bottom: -3rem;
   }
 }/*# sourceMappingURL=estilos.css.map */
