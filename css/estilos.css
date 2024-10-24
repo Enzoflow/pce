@@ -642,6 +642,7 @@ body main .galery .columnaVideos video {
     flex-direction: column;
     align-items: center;
     margin: 0px auto;
+    padding: 3rem;
   }
   body main section .servicios .tituloServicio {
     font-size: 4rem;
@@ -770,6 +771,7 @@ body main .galery .columnaVideos video {
     flex-direction: column;
     align-items: center;
     margin: 0px auto;
+    padding: 3rem;
   }
   body main section .servicios .tituloServicio {
     font-size: 4rem;
@@ -937,6 +939,7 @@ body main .galery .columnaVideos video {
     flex-direction: column;
     align-items: center;
     margin: 0px auto;
+    padding: 3rem;
   }
   body main section .servicios .tituloServicio {
     font-size: 4rem;
@@ -1112,6 +1115,7 @@ body main .galery .columnaVideos video {
     align-items: center;
     margin: 0px auto;
     margin-bottom: -6rem;
+    padding: 3rem;
   }
   body main section .servicios .tituloServicio {
     font-size: 4rem;
