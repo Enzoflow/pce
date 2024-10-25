@@ -6,8 +6,8 @@
                     grid-template-columns: 1fr;
                     grid-template-rows: 200px;
                     grid-template-areas:
+                        "cartel"
                         "titulo"
-                        "subTitulo"
                         "des"
                         "info"
                         "mapa"
@@ -19,6 +19,9 @@
                             font-size: 2rem;
                             padding-right: 0rem;
                             padding: 1rem;
+                        }
+                        .cartel{
+                            width: 20rem;
                         }
                         .tituloContacto{
                             font-size: 4rem;
@@ -32,7 +35,7 @@
                         }
                         .mapa{
                             margin: 0px auto !important;
-                            width: 100%;
+                            width: 90%;
                             .mapa2{
                                 margin-top: 2rem !important;
                                 width: 100% !important;
@@ -50,9 +53,14 @@
                                 font-size: 2rem;
                                 margin: 0px auto;
                             }
+                            .datosGmail{
+                                font-size: 2rem;
+                                margin: 0px auto;
+                            }
                         }
                         .desMapa{
                             width: auto;
+                            font-size: 3rem;
                         }
                 }
                 div{
@@ -346,8 +354,8 @@
                     grid-template-columns: 1fr;
                     grid-template-rows: 200px;
                     grid-template-areas:
+                        "cartel"
                         "titulo"
-                        "subTitulo"
                         "des"
                         "info"
                         "mapa"
@@ -379,12 +387,27 @@
                             }
                         }
                         .contenedor{
+                            flex-direction: column;
                             width: 20rem;
                             margin-top: 1rem;
                             margin-left: 0rem;
                             align-items: center;
                             margin: 0px auto;
                             width: 100%;
+                            .circulo{
+                                .ig{
+                                    width: 7rem;
+                                    height: 7rem;
+                                }
+                                .gmail{
+                                    width: 9rem;
+                                    height: 9rem;
+                                }
+                                .wsp{
+                                    width: 7rem;
+                                    height: 7rem;
+                                }
+                            }
                             .datos{
                                 font-size: 2.5rem;
                                 margin: 0px auto;
@@ -540,8 +563,8 @@
                     grid-template-columns: 1fr 1fr;
                     grid-template-rows: 200px;
                     grid-template-areas:
+                        "cartel cartel"
                         "titulo titulo"
-                        "subTitulo subTitulo"
                         "des des"
                         "info info"
                         "mapa mapa"
@@ -578,7 +601,8 @@
                             margin-left: 0rem;
                             align-items: center;
                             margin: 0px auto;
-                            width: 100%;
+                            width: max-content;
+                            flex-direction: column;
                             .datos{
                                 font-size: 2.5rem;
                                 margin: 0px auto;
