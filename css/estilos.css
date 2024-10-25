@@ -536,6 +536,7 @@ body main .galery .columnaVideos video {
     font-size: 2rem;
     padding-right: 0rem;
     padding: 1rem;
+    text-align: center;
   }
   body main section .contact .cartel {
     width: 20rem;
@@ -567,11 +568,24 @@ body main .galery .columnaVideos video {
     margin: 0px auto;
     width: 100%;
   }
-  body main section .contact .contenedor .datos {
+  body main section .contact .contenedor .circulo {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  body main section .contact .contenedor .circulo .ig {
+    margin-left: 1rem;
+  }
+  body main section .contact .contenedor .circulo .gmail {
+    margin-left: 1rem;
+  }
+  body main section .contact .contenedor .circulo .wsp {
+    margin-left: 1rem;
+  }
+  body main section .contact .contenedor .circulo .datos {
     font-size: 2rem;
     margin: 0px auto;
   }
-  body main section .contact .contenedor .datosGmail {
+  body main section .contact .contenedor .circulo .datosGmail {
     font-size: 2rem;
     margin: 0px auto;
   }
@@ -825,9 +839,9 @@ body main .galery .columnaVideos video {
     margin-top: 1rem;
   }
   body main section .contact {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px;
-    grid-template-areas: "cartel" "titulo" "des" "info" "mapa" "desMapa";
+    grid-template-areas: "cartel cartel" "titulo titulo" "des des" "info info" "info info" "mapa mapa" "desMapa desMapa";
     margin: 0px auto;
   }
   body main section .contact .in {
@@ -856,25 +870,33 @@ body main .galery .columnaVideos video {
     width: 100% !important;
   }
   body main section .contact .contenedor {
-    flex-direction: column;
+    flex-direction: row;
     width: 20rem;
     margin-top: 1rem;
     margin-left: 0rem;
     align-items: center;
     margin: 0px auto;
     width: 100%;
+    flex-wrap: wrap;
+  }
+  body main section .contact .contenedor .circulo {
+    width: -moz-max-content;
+    width: max-content;
   }
   body main section .contact .contenedor .circulo .ig {
     width: 7rem;
     height: 7rem;
+    margin-left: 1rem;
   }
   body main section .contact .contenedor .circulo .gmail {
     width: 9rem;
     height: 9rem;
+    margin-left: 1rem;
   }
   body main section .contact .contenedor .circulo .wsp {
     width: 7rem;
     height: 7rem;
+    margin-left: 1rem;
   }
   body main section .contact .contenedor .datos {
     font-size: 2.5rem;
@@ -1008,7 +1030,7 @@ body main .galery .columnaVideos video {
   body main section .contact {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px;
-    grid-template-areas: "cartel cartel" "titulo titulo" "des des" "info info" "mapa mapa" "desMapa desMapa";
+    grid-template-areas: "cartel cartel" "titulo titulo" "des des" "info info" "info info" "mapa mapa" "desMapa desMapa";
     margin: 0px auto;
   }
   body main section .contact .in {
@@ -1037,16 +1059,21 @@ body main .galery .columnaVideos video {
     width: 100% !important;
   }
   body main section .contact .contenedor {
-    width: 20rem;
-    margin-top: 1rem;
-    margin-left: 0rem;
     align-items: center;
     margin: 0px auto;
     width: -moz-max-content;
     width: max-content;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    flex-wrap: wrap;
   }
-  body main section .contact .contenedor .datos {
+  body main section .contact .contenedor .circulo {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  body main section .contact .contenedor .circulo .datos {
     font-size: 2.5rem;
     margin: 0px auto;
   }
@@ -1184,12 +1211,12 @@ body main .galery .columnaVideos video {
     margin-top: 1rem;
   }
   body main section .contact {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 53px;
-    grid-template-areas: "titulo titulo" "mapa subTitulo" "mapa des" "mapa info" "mapa desMapa";
-    margin: 0px auto;
-    margin-top: -8rem;
-    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-template-areas: "cartel cartel cartel" "titulo titulo titulo" "des des des" "info info info" "mapa mapa desMapa";
+    padding: 2rem;
+    justify-items: center;
   }
   body main section .contact .in {
     margin-top: 1rem;
