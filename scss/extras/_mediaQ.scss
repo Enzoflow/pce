@@ -74,7 +74,7 @@
                 }
                 .informacion{
                     grid-template-columns: 1fr;
-                    grid-template-rows: 100px;
+                    grid-template-rows: 55px;
                     grid-template-areas: 
                     "titulo"
                     "foto"
@@ -91,6 +91,7 @@
                     .descripcion{
                         font-size: 2rem;
                         padding-left: 0rem;
+                        margin-top: 3rem;
                     }
                     .img-info{
                         width: 28rem;

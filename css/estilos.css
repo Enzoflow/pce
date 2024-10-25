@@ -353,9 +353,9 @@ body footer .textoF {
 
 body main section .contact {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 200px;
-  grid-template-areas: "titulo titulo" "mapa subTitulo" "mapa des" "desMapa info";
+  grid-template-areas: "cartel cartel cartel" "titulo titulo titulo" "des des des" "info info info" "mapa mapa desMapa";
   padding: 2rem;
   justify-items: center;
 }
@@ -364,38 +364,47 @@ body main section .contact .tituloContacto {
   font-size: 5rem;
   text-align: center;
   grid-area: titulo;
-  margin-top: -5rem;
+  margin-top: -10rem;
   font-family: "Playfair Display", serif;
+}
+body main section .contact .cartel {
+  grid-area: cartel;
+  width: 25rem;
+  margin-top: 1rem;
+  border-radius: 15rem;
+  box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  -webkit-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  -moz-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  margin-top: -17rem;
 }
 body main section .contact .mapa {
   grid-area: mapa;
+  margin-top: 12rem;
+  width: 100%;
+  margin-bottom: 3rem;
 }
-body main section .contact .subTitulo {
-  font-size: 3.5rem;
-  grid-area: subTitulo;
-  margin-top: -8rem;
-  text-align: center;
+body main section .contact .mapa .mapa2 {
+  width: 100%;
 }
 body main section .contact .in {
   color: black;
   font-size: 2.3rem;
   grid-area: des;
-  margin-top: -15rem;
+  margin-top: 1rem;
   text-align: justify;
   padding-right: 3rem;
 }
 body main section .contact .desMapa {
   grid-area: desMapa;
-  font-size: 2rem;
-  padding: 1rem;
-  width: 51rem;
+  font-size: 4rem;
+  padding: 3rem;
+  width: auto;
   text-align: center;
+  margin-top: 10rem;
 }
 body main section .contact .contenedor {
   grid-area: info;
-  background: rgb(252, 184, 46);
-  background: radial-gradient(circle, rgb(252, 184, 46) 87%, rgb(255, 255, 255) 99%, rgb(0, 0, 0) 100%);
-  width: 55rem;
+  width: 100%;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
@@ -403,40 +412,57 @@ body main section .contact .contenedor {
   margin-left: 1rem;
   padding: 25px 25px;
   gap: 1rem;
-  justify-content: space-around;
+  justify-content: center;
   border-radius: 45px 45px 45px 45px;
   -webkit-border-radius: 45px 45px 45px 45px;
   -moz-border-radius: 45px 45px 45px 45px;
-  margin-top: -15rem;
+  margin-top: 1rem;
 }
 body main section .contact .contenedor .datos {
   color: black;
-  align-content: space-around;
   font-size: 2rem;
   margin-top: 1rem;
-  margin-left: -2rem;
+  margin-left: 1rem;
+}
+body main section .contact .contenedor .datosGmail {
+  font-size: 2rem;
+  width: auto;
 }
 body main section .contact .contenedor .circulo {
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  background-color: rgb(44, 44, 44);
+  width: 100%;
+  height: 11rem;
+  border-radius: 1%;
+  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   overflow: hidden;
+  border: solid 0.1rem rgba(250, 163, 7, 0.67);
+  border-radius: 10rem;
+}
+body main section .contact .contenedor .circulo:hover {
+  box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  -webkit-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  -moz-box-shadow: 1px 0px 36px 2px rgba(250, 163, 7, 0.67);
+  transition-duration: 0.3s;
 }
 body main section .contact .contenedor .circulo .ig {
   width: 7rem;
   height: 7rem;
 }
-body main section .contact .contenedor .circulo .ig:hover {
-  background-color: #d62976;
-  transition-duration: 0.3s;
+body main section .contact .contenedor .circulo .gmail {
+  width: 9rem;
+  height: 9rem;
 }
 body main section .contact .contenedor .circulo .wsp {
-  width: 10rem;
-  height: 10rem;
+  width: 7rem;
+  height: 7rem;
+}
+body main section .contact .contenedor .circulo .wsp:hover {
+  background: rgb(44, 186, 41);
+  background: radial-gradient(circle, rgb(44, 186, 41) 88%, rgb(0, 0, 0) 100%);
+  transition-duration: 0.3s;
 }
 
 body main .galery .tituloGaleria {
@@ -562,7 +588,7 @@ body main .galery .columnaVideos video {
   }
   body main section .informacion {
     grid-template-columns: 1fr;
-    grid-template-rows: 100px;
+    grid-template-rows: 55px;
     grid-template-areas: "titulo" "foto" "des" "titulo2" "des2";
     margin: 0px auto;
   }
@@ -575,6 +601,7 @@ body main .galery .columnaVideos video {
   body main section .informacion .descripcion {
     font-size: 2rem;
     padding-left: 0rem;
+    margin-top: 3rem;
   }
   body main section .informacion .img-info {
     width: 28rem;
