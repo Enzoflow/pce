@@ -526,7 +526,7 @@ body main .galery .columnaVideos video {
 @media only screen and (max-width: 699px) {
   body main section .contact {
     grid-template-columns: 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 77px;
     grid-template-areas: "cartel" "titulo" "des" "info" "mapa" "desMapa";
     margin: 0px auto;
   }
@@ -537,6 +537,7 @@ body main .galery .columnaVideos video {
     padding-right: 0rem;
     padding: 1rem;
     text-align: center;
+    border-bottom: solid 0.1rem gray;
   }
   body main section .contact .cartel {
     width: 20rem;
@@ -545,10 +546,13 @@ body main .galery .columnaVideos video {
     font-size: 4rem;
     padding-left: 0rem;
     width: auto;
+    margin-top: -1rem;
   }
   body main section .contact .mapa {
     margin: 0px auto !important;
     width: 100%;
+    border-bottom: solid 0.1rem gray;
+    border-top: solid 0.1rem gray;
   }
   body main section .contact .mapa .mapa2 {
     margin-top: 2rem !important;
@@ -568,12 +572,18 @@ body main .galery .columnaVideos video {
   }
   body main section .contact .contenedor .circulo .ig {
     margin-left: 1rem;
+    width: 4rem;
+    height: 4rem;
   }
   body main section .contact .contenedor .circulo .gmail {
     margin-left: 1rem;
+    width: 4rem;
+    height: 4rem;
   }
   body main section .contact .contenedor .circulo .wsp {
     margin-left: 1rem;
+    width: 4rem;
+    height: 4rem;
   }
   body main section .contact .contenedor .circulo .datos {
     font-size: 2rem;
@@ -585,7 +595,8 @@ body main .galery .columnaVideos video {
   }
   body main section .contact .desMapa {
     width: auto;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-top: 0rem;
   }
   body main section div .banner {
     height: 22rem;
@@ -713,6 +724,9 @@ body main .galery .columnaVideos video {
   body main .galery .columnaVideos {
     margin-bottom: -3rem;
   }
+  body footer .textoF {
+    font-size: 1.5rem;
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 850px) {
   body main section div .banner {
@@ -834,7 +848,7 @@ body main .galery .columnaVideos video {
   }
   body main section .contact {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 100px;
     grid-template-areas: "cartel cartel" "titulo titulo" "des des" "info info" "info info" "mapa mapa" "desMapa desMapa";
     margin: 0px auto;
   }
@@ -849,6 +863,7 @@ body main .galery .columnaVideos video {
     font-size: 4rem;
     padding-left: 0rem;
     width: auto;
+    margin-top: 1rem;
   }
   body main section .contact .subTitulo {
     width: auto;
@@ -878,18 +893,18 @@ body main .galery .columnaVideos video {
     width: max-content;
   }
   body main section .contact .contenedor .circulo .ig {
-    width: 7rem;
-    height: 7rem;
+    width: 4rem;
+    height: 4rem;
     margin-left: 1rem;
   }
   body main section .contact .contenedor .circulo .gmail {
-    width: 9rem;
-    height: 9rem;
+    width: 4rem;
+    height: 4rem;
     margin-left: 1rem;
   }
   body main section .contact .contenedor .circulo .wsp {
-    width: 7rem;
-    height: 7rem;
+    width: 4rem;
+    height: 4rem;
     margin-left: 1rem;
   }
   body main section .contact .contenedor .datos {
@@ -898,6 +913,8 @@ body main .galery .columnaVideos video {
   }
   body main section .contact .desMapa {
     width: auto;
+    font-size: 2.5rem;
+    margin-top: 0rem;
   }
   body main .galery .columna {
     justify-content: space-evenly;
@@ -1023,7 +1040,7 @@ body main .galery .columnaVideos video {
   }
   body main section .contact {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 100px;
     grid-template-areas: "cartel cartel" "titulo titulo" "des des" "info info" "info info" "mapa mapa" "desMapa desMapa";
     margin: 0px auto;
   }
@@ -1038,6 +1055,7 @@ body main .galery .columnaVideos video {
     font-size: 4rem;
     padding-left: 0rem;
     width: auto;
+    margin-top: 1rem;
   }
   body main section .contact .subTitulo {
     width: auto;
@@ -1067,12 +1085,26 @@ body main .galery .columnaVideos video {
     width: -moz-max-content;
     width: max-content;
   }
+  body main section .contact .contenedor .circulo .ig {
+    width: 5rem;
+    height: 5rem;
+  }
+  body main section .contact .contenedor .circulo .wsp {
+    width: 5rem;
+    height: 5rem;
+  }
+  body main section .contact .contenedor .circulo .gmail {
+    width: 5rem;
+    height: 5rem;
+  }
   body main section .contact .contenedor .circulo .datos {
     font-size: 2.5rem;
     margin: 0px auto;
   }
   body main section .contact .desMapa {
     width: auto;
+    margin-top: 1rem;
+    font-size: 2.5rem;
   }
   body main .galery .tituloGaleria {
     margin-top: 2rem;
