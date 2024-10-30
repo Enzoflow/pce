@@ -676,11 +676,12 @@ body main .galery .columnaVideos video {
     grid-template-areas: "titulo" "card1" "card2" "card3" "card4" "card5";
   }
   body main section .informacion2 .card {
-    margin-top: 5rem;
+    margin-top: 3rem;
     height: auto;
   }
   body main section .informacion2 .cincoBeneficios {
     margin-bottom: 1rem;
+    font-size: 5rem;
   }
   body main section .informacion2 .card2 {
     height: auto;
