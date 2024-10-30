@@ -151,6 +151,7 @@
                     .descripcionSeguridad{
                         font-size: 2rem;
                         text-align: center;
+                        margin-top: 1rem;
                     }
                     .pic{
                         height: 16rem;
@@ -311,6 +312,7 @@
                     .descripcionSeguridad{
                         font-size: 2rem;
                         text-align: center;
+                        margin-top: 1rem;
                     }
                     .pic{
                         height: 20rem;
@@ -531,6 +533,7 @@
                     .descripcionSeguridad{
                         font-size: 2rem;
                         text-align: center;
+                        margin-top: 1rem;
                     }
                     .pic{
                         height: 25rem;
@@ -753,6 +756,7 @@
                     .descripcionSeguridad{
                         font-size: 2rem;
                         text-align: center;
+                        margin-top: 1rem;
                     }
                     .pic{
                         height: 25rem;
@@ -878,6 +882,90 @@
             .galery{
                 .columnaVideos{
                     margin-bottom: -2rem;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1600px){
+body{
+    main{
+        section{
+            .informacion2{
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 130px;
+                grid-template-areas: 
+                "titulo titulo"
+                "card1 card2"
+                "card3 card4" 
+                "card5 card5";
+                .card{
+                    margin-top: 0rem;
+                    height: auto;
+                }
+                .cincoBeneficios{
+                    margin-bottom: 1rem;
+                }
+                .card2{
+                    height: auto;
+                    .disuasion{
+                        margin-top: 0rem;
+                        width: 5.5rem;
+                    }
+                }
+                .card3{
+                    height: auto;
+        
+                }
+                .card4{
+                    height: auto;
+                    width: auto;
+                    margin-left: 0rem;
+                }
+                .card5{
+                    height: auto;
+                    width: auto;
+                    margin-left: 0rem;
+                }
+            }
+        }
+    }
+}
+    
+}
+@media only screen and (min-width: 1600px) and (max-width: 2150px){
+    body{
+        main{
+            section{
+                .informacion2{
+                    .card{
+                        margin-top: 0rem;
+                        height: auto;
+                    }
+                    .cincoBeneficios{
+                        margin-bottom: 1rem;
+                    }
+                    .card2{
+                        height: auto;
+                        .disuasion{
+                            margin-top: 0rem;
+                            width: 5.5rem;
+                        }
+                    }
+                    .card3{
+                        height: auto;
+            
+                    }
+                    .card4{
+                        height: auto;
+                        width: auto;
+                        margin-left: 0rem;
+                    }
+                    .card5{
+                        height: auto;
+                        width: auto;
+                        margin-left: 0rem;
+                    }
                 }
             }
         }

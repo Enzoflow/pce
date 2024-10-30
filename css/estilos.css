@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Elbasan&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,8 +27,8 @@ body header .navbar div div {
   justify-content: center;
 }
 body header .navbar div div ul li a {
-  font-size: 3rem !important;
-  font-family: "Poppins", sans-serif;
+  font-size: 2rem !important;
+  font-family: "Noto Sans Elbasan", sans-serif;
 }
 body header .navbar ul {
   font-size: 1rem;
@@ -65,7 +66,7 @@ body main section .informacion .titulo {
   grid-area: titulo;
   padding-left: 3rem;
   margin-top: 1rem;
-  font-family: "Playfair Display", serif;
+  font-family: "Noto Sans Elbasan", sans-serif;
 }
 body main section .informacion .descripcion {
   color: black;
@@ -90,7 +91,7 @@ body main section .informacion .titulo2 {
   color: black;
   font-size: 3rem;
   padding-left: 3rem;
-  font-family: "Playfair Display", serif;
+  font-family: "Noto Sans Elbasan", sans-serif;
 }
 body main section .informacion .descripcion2 {
   grid-area: des2;
@@ -104,7 +105,7 @@ body main section .informacion .descripcion2 {
 body main section .merecesSeguridad {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 350px;
+  grid-template-rows: 370px;
   grid-template-areas: "pic titulo" "pic2 des" "pic3 des";
   padding: 3rem;
   margin-top: 1rem;
@@ -112,7 +113,7 @@ body main section .merecesSeguridad {
 }
 body main section .merecesSeguridad .tituloMereces {
   grid-area: titulo;
-  font-size: 8rem;
+  font-size: 7rem;
   text-align: center;
   font-family: "Playfair Display", serif;
 }
@@ -122,22 +123,23 @@ body main section .merecesSeguridad .descripcionSeguridad {
   text-align: justify;
   padding: 3.5rem;
   font-family: "Poppins", sans-serif;
+  margin-top: -9rem;
 }
 body main section .merecesSeguridad .pic {
   grid-area: pic;
   width: 100%;
+  border-radius: 41px 41px 41px 41px;
+  -webkit-border-radius: 41px 41px 41px 41px;
+  -moz-border-radius: 41px 41px 41px 41px;
   margin-top: -3rem;
-  border-radius: 85px 0px 0px 81px;
-  -webkit-border-radius: 85px 0px 0px 81px;
-  -moz-border-radius: 85px 0px 0px 81px;
   border: 3px solid #000000;
 }
 body main section .merecesSeguridad .pic2 {
   grid-area: pic2;
   width: 100%;
-  border-radius: 85px 0px 0px 81px;
-  -webkit-border-radius: 85px 0px 0px 81px;
-  -moz-border-radius: 85px 0px 0px 81px;
+  border-radius: 41px 41px 41px 41px;
+  -webkit-border-radius: 41px 41px 41px 41px;
+  -moz-border-radius: 41px 41px 41px 41px;
   border: 3px solid #000000;
 }
 body main section .informacion2 {
@@ -156,7 +158,7 @@ body main section .informacion2 .cincoBeneficios {
   color: black;
   grid-area: titulo;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
 }
 body main section .informacion2 .card {
   background: rgb(252, 184, 46);
@@ -208,6 +210,10 @@ body main section .informacion2 .card2 .desDisuasion {
   color: black;
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
+}
+body main section .informacion2 .card2 .disuasion {
+  margin-top: 1rem;
+  width: 5.5rem;
 }
 body main section .informacion2 .card3 {
   background: rgb(252, 184, 46);
@@ -297,14 +303,14 @@ body main section .informacion2 .card5 .flex {
 }
 body main section .servicios {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: -11rem;
 }
 body main section .servicios .tituloServicio {
   color: black;
-  font-size: 5rem;
-  margin-bottom: 1rem;
-  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  margin-bottom: 3.5rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .servicios .icons {
   background-color: rgba(255, 255, 255, 0.5);
@@ -367,8 +373,8 @@ body main section .contact .tituloContacto {
   font-size: 5rem;
   text-align: center;
   grid-area: titulo;
-  margin-top: -10rem;
-  font-family: "Playfair Display", serif;
+  margin-top: -7rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .contact .cartel {
   grid-area: cartel;
@@ -396,14 +402,16 @@ body main section .contact .in {
   margin-top: 1rem;
   text-align: justify;
   padding-right: 3rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .contact .desMapa {
   grid-area: desMapa;
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 3rem;
   width: auto;
   text-align: center;
   margin-top: 10rem;
+  font-family: "Poppins", sans-serif;
 }
 body main section .contact .contenedor {
   grid-area: info;
@@ -421,7 +429,7 @@ body main section .contact .contenedor {
   -moz-border-radius: 45px 45px 45px 45px;
   margin-top: 1rem;
 }
-body main section .contact .contenedor .datos {
+body main section .contact .contenedor a .datos {
   color: black;
   font-size: 2rem;
   margin-top: 1rem;
@@ -430,6 +438,7 @@ body main section .contact .contenedor .datos {
 body main section .contact .contenedor .datosGmail {
   font-size: 2rem;
   width: auto;
+  margin-left: 0.5rem;
 }
 body main section .contact .contenedor .circulo {
   width: 100%;
@@ -455,28 +464,25 @@ body main section .contact .contenedor .circulo .ig {
   height: 7rem;
 }
 body main section .contact .contenedor .circulo .gmail {
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
 }
 body main section .contact .contenedor .circulo .wsp {
   width: 7rem;
   height: 7rem;
 }
-body main section .contact .contenedor .circulo .wsp:hover {
-  background: rgb(44, 186, 41);
-  background: radial-gradient(circle, rgb(44, 186, 41) 88%, rgb(0, 0, 0) 100%);
-  transition-duration: 0.3s;
-}
 
 body main .galery .tituloGaleria {
   text-align: center;
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  font-family: "Poppins", sans-serif;
 }
 body main .galery .tituloGaleriaVideos {
   text-align: center;
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  margin-top: 2rem;
 }
 body main .galery .columna {
   display: flex;
@@ -659,6 +665,7 @@ body main .galery .columnaVideos video {
   body main section .merecesSeguridad .descripcionSeguridad {
     font-size: 2rem;
     text-align: center;
+    margin-top: 1rem;
   }
   body main section .merecesSeguridad .pic {
     height: 16rem;
@@ -792,6 +799,7 @@ body main .galery .columnaVideos video {
   body main section .merecesSeguridad .descripcionSeguridad {
     font-size: 2rem;
     text-align: center;
+    margin-top: 1rem;
   }
   body main section .merecesSeguridad .pic {
     height: 20rem;
@@ -983,6 +991,7 @@ body main .galery .columnaVideos video {
   body main section .merecesSeguridad .descripcionSeguridad {
     font-size: 2rem;
     text-align: center;
+    margin-top: 1rem;
   }
   body main section .merecesSeguridad .pic {
     height: 25rem;
@@ -1180,6 +1189,7 @@ body main .galery .columnaVideos video {
   body main section .merecesSeguridad .descripcionSeguridad {
     font-size: 2rem;
     text-align: center;
+    margin-top: 1rem;
   }
   body main section .merecesSeguridad .pic {
     height: 25rem;
@@ -1293,5 +1303,68 @@ body main .galery .columnaVideos video {
   }
   body main .galery .columnaVideos {
     margin-bottom: -2rem;
+  }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+  body main section .informacion2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px;
+    grid-template-areas: "titulo titulo" "card1 card2" "card3 card4" "card5 card5";
+  }
+  body main section .informacion2 .card {
+    margin-top: 0rem;
+    height: auto;
+  }
+  body main section .informacion2 .cincoBeneficios {
+    margin-bottom: 1rem;
+  }
+  body main section .informacion2 .card2 {
+    height: auto;
+  }
+  body main section .informacion2 .card2 .disuasion {
+    margin-top: 0rem;
+    width: 5.5rem;
+  }
+  body main section .informacion2 .card3 {
+    height: auto;
+  }
+  body main section .informacion2 .card4 {
+    height: auto;
+    width: auto;
+    margin-left: 0rem;
+  }
+  body main section .informacion2 .card5 {
+    height: auto;
+    width: auto;
+    margin-left: 0rem;
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 2150px) {
+  body main section .informacion2 .card {
+    margin-top: 0rem;
+    height: auto;
+  }
+  body main section .informacion2 .cincoBeneficios {
+    margin-bottom: 1rem;
+  }
+  body main section .informacion2 .card2 {
+    height: auto;
+  }
+  body main section .informacion2 .card2 .disuasion {
+    margin-top: 0rem;
+    width: 5.5rem;
+  }
+  body main section .informacion2 .card3 {
+    height: auto;
+  }
+  body main section .informacion2 .card4 {
+    height: auto;
+    width: auto;
+    margin-left: 0rem;
+  }
+  body main section .informacion2 .card5 {
+    height: auto;
+    width: auto;
+    margin-left: 0rem;
   }
 }/*# sourceMappingURL=estilos.css.map */

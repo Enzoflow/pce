@@ -18,8 +18,8 @@ body{
                     font-size: 5rem;
                     text-align: center;
                     grid-area: titulo;
-                    margin-top: -10rem;
-                    font-family: "Playfair Display", serif;
+                    margin-top: -7rem;
+                    font-family: "Poppins", sans-serif;
                 }
                 .cartel{
                     grid-area: cartel;
@@ -47,14 +47,16 @@ body{
                     margin-top: 1rem;
                     text-align: justify;
                     padding-right: 3rem;
+                    font-family: "Poppins", sans-serif;
                 }
                 .desMapa{
                     grid-area: desMapa;
-                    font-size: 4rem;
+                    font-size: 3rem;
                     padding: 3rem;
                     width: auto;
                     text-align: center;
                     margin-top: 10rem;
+                    font-family: "Poppins", sans-serif;
                 }
                 .contenedor{
                     grid-area: info;
@@ -71,15 +73,20 @@ body{
                     -webkit-border-radius: 45px 45px 45px 45px;
                     -moz-border-radius: 45px 45px 45px 45px;
                     margin-top: 1rem;
-                    .datos{
-                        color: black;
-                        font-size: 2rem;
-                        margin-top: 1rem;
-                        margin-left: 1rem;
+                    a{
+                        .datos{
+                            color: black;
+                            font-size: 2rem;
+                            margin-top: 1rem;
+                            margin-left: 1rem;
+                            
+                        }
                     }
+                    
                     .datosGmail{
                         font-size: 2rem;
                         width: auto;
+                        margin-left: 0.5rem;
                     }
                     .circulo{
                         width: 100%;
@@ -105,17 +112,12 @@ body{
                             height: 7rem;  
                         }
                         .gmail{
-                            width: 9rem;
-                            height: 9rem;
+                            width: 8rem;
+                            height: 8rem;
                         }
                         .wsp{
                             width: 7rem;
                             height: 7rem;
-                            &:hover{
-                                background: rgb(44,186,41);
-                                background: radial-gradient(circle, rgba(44,186,41,1) 88%, rgba(0,0,0,1) 100%);
-                                transition-duration: .3s;
-                            }
                         }
                     }
                 }
