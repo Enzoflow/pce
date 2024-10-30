@@ -208,15 +208,35 @@
                     .icons{
                         flex-direction: column;
                         gap: 8rem;
+                        margin-left: -3rem;
                         .instalacion{
                             margin-left: 0rem;
+                            width: 11rem;
+                        }
+                        .pago{
+                            margin-left: 2rem;
+                            width: 11rem;
+                        }
+                        .mantenimiento{
+                            margin-left: 4rem;
+                            width: 12rem;
                         }
                     }
                     .name-icons{
                         gap: 11rem;
-                        flex-direction: column;
+                        flex-direction: column-reverse;
                         .names{
                             margin-top: -35rem;
+                        }
+                        .namesM{
+                            text-align: center;
+                        }
+                        .namesI{
+                            text-align: center;
+                            margin-left: 1rem !important;
+                        }
+                        .namesC{
+                            text-align: center;
                         }
                     }
                 }

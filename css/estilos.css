@@ -713,16 +713,36 @@ body main .galery .columnaVideos video {
   body main section .servicios .icons {
     flex-direction: column;
     gap: 8rem;
+    margin-left: -3rem;
   }
   body main section .servicios .icons .instalacion {
     margin-left: 0rem;
+    width: 11rem;
+  }
+  body main section .servicios .icons .pago {
+    margin-left: 2rem;
+    width: 11rem;
+  }
+  body main section .servicios .icons .mantenimiento {
+    margin-left: 4rem;
+    width: 12rem;
   }
   body main section .servicios .name-icons {
     gap: 11rem;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   body main section .servicios .name-icons .names {
     margin-top: -35rem;
+  }
+  body main section .servicios .name-icons .namesM {
+    text-align: center;
+  }
+  body main section .servicios .name-icons .namesI {
+    text-align: center;
+    margin-left: 1rem !important;
+  }
+  body main section .servicios .name-icons .namesC {
+    text-align: center;
   }
   body main .galery .tituloGaleria {
     margin-bottom: 2rem;
