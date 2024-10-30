@@ -15,7 +15,9 @@ body{
         .navbar{
             background-color: #f8f9fa !important;
             div{
-
+                .navbar-toggler{
+                    background-color: gold !important;
+                }
                 .nombre-empresa{
                     font-size: 3rem;
                     

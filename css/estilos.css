@@ -16,6 +16,9 @@ body {
 body header .navbar {
   background-color: #f8f9fa !important;
 }
+body header .navbar div .navbar-toggler {
+  background-color: gold !important;
+}
 body header .navbar div .nombre-empresa {
   font-size: 3rem;
 }
@@ -623,7 +626,7 @@ body main .galery .columnaVideos video {
     padding-left: 0rem;
     width: auto;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -5rem;
   }
   body main section .informacion .descripcion {
     font-size: 2rem;
@@ -723,6 +726,7 @@ body main .galery .columnaVideos video {
   }
   body main .galery .columnaVideos {
     margin-bottom: -3rem;
+    padding: 2rem;
   }
   body footer .textoF {
     font-size: 1.5rem;
@@ -1285,6 +1289,7 @@ body main .galery .columnaVideos video {
   }
   body main section .contact .desMapa {
     width: auto;
+    font-size: 3.5rem;
   }
   body main .galery .columnaVideos {
     margin-bottom: -2rem;
