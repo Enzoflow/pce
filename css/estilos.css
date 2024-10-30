@@ -522,14 +522,11 @@ body main .galery .columnaVideos {
 }
 body main .galery .columnaVideos video {
   border-radius: 2rem;
-  width: 40rem;
-  height: 40rem;
+  width: 37rem;
+  height: 37rem;
   margin-bottom: 3rem;
   -o-object-fit: cover;
      object-fit: cover;
-  box-shadow: -1px 0px 36px 0px rgba(238, 194, 38, 0.75);
-  -webkit-box-shadow: -1px 0px 36px 0px rgba(238, 194, 38, 0.75);
-  -moz-box-shadow: -1px 0px 36px 0px rgba(238, 194, 38, 0.75);
 }
 
 @media only screen and (max-width: 699px) {
@@ -632,7 +629,7 @@ body main .galery .columnaVideos video {
     padding-left: 0rem;
     width: auto;
     text-align: center;
-    margin-top: -5rem;
+    margin-top: -5.5rem;
   }
   body main section .informacion .descripcion {
     font-size: 2rem;
@@ -675,11 +672,11 @@ body main .galery .columnaVideos video {
   }
   body main section .informacion2 {
     grid-template-columns: 1fr;
-    grid-template-rows: 100px;
+    grid-template-rows: 199px;
     grid-template-areas: "titulo" "card1" "card2" "card3" "card4" "card5";
   }
   body main section .informacion2 .card {
-    margin-top: 17rem;
+    margin-top: 5rem;
     height: auto;
   }
   body main section .informacion2 .cincoBeneficios {
@@ -707,6 +704,7 @@ body main .galery .columnaVideos video {
     align-items: center;
     margin: 0px auto;
     padding: 3rem;
+    margin-bottom: -10rem;
   }
   body main section .servicios .tituloServicio {
     font-size: 4rem;
@@ -733,6 +731,8 @@ body main .galery .columnaVideos video {
   }
   body main .galery .columnaVideos {
     margin-bottom: -3rem;
+  }
+  body main .galery .columnaVideos video {
     padding: 2rem;
   }
   body footer .textoF {

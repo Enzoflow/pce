@@ -114,7 +114,7 @@
                         padding-left: 0rem;
                         width: auto;
                         text-align: center;
-                        margin-top: -5rem;
+                        margin-top: -5.5rem;
                     }
                     .descripcion{
                         font-size: 2rem;
@@ -162,7 +162,7 @@
                 }
                 .informacion2{
                     grid-template-columns: 1fr;
-                    grid-template-rows: 100px;
+                    grid-template-rows: 199px;
                     grid-template-areas: 
                     "titulo"
                     "card1"
@@ -171,7 +171,7 @@
                     "card4"
                     "card5";
                     .card{
-                        margin-top: 17rem;
+                        margin-top: 5rem;
                         height: auto;
                     }
                     .cincoBeneficios{
@@ -200,6 +200,7 @@
                     align-items: center;
                     margin: 0px auto;
                     padding: 3rem;
+                    margin-bottom: -10rem;
                     .tituloServicio{
                         font-size: 4rem;
                     }
@@ -228,7 +229,9 @@
                 }
                 .columnaVideos{
                     margin-bottom: -3rem;
-                    padding: 2rem;
+                    video{
+                        padding: 2rem;
+                    }
                 }
             }
         }
