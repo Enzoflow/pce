@@ -645,6 +645,8 @@ body main .galery .columnaVideos video {
     width: auto;
     text-align: center;
     padding-left: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
   body main section .informacion .descripcion2 {
     font-size: 2rem;
@@ -672,7 +674,7 @@ body main .galery .columnaVideos video {
   }
   body main section .informacion2 {
     grid-template-columns: 1fr;
-    grid-template-rows: 199px;
+    grid-template-rows: 150px;
     grid-template-areas: "titulo" "card1" "card2" "card3" "card4" "card5";
   }
   body main section .informacion2 .card {
@@ -681,7 +683,7 @@ body main .galery .columnaVideos video {
   }
   body main section .informacion2 .cincoBeneficios {
     margin-bottom: 1rem;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   body main section .informacion2 .card2 {
     height: auto;
